@@ -1,0 +1,77 @@
+.best-food{
+    width: 90%;
+    margin: 0 auto;
+    max-width: var(--max-width);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+/* gap: 1rem; */
+    padding-block: 1.5rem;
+}
+.best-food-info,.best-img{
+    width: 50%;
+    height: 350px;
+}
+.best-food-info{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  
+}
+.best-food-img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+.black{
+    background-color: #242424;
+    height: 350px;
+    color: var(--white);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  
+}
+.best-subtitle{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    color: var(--golden);
+   
+}
+.best-title{
+    font-size: 2rem;
+    width: 33%;
+    /* word-wrap: break-word; */
+    text-align: center;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.best-title span{
+    color: var(--golden);
+    display: block;
+}
+.grey{
+    background-color: var(--grey);
+}
+
+@media (max-width:600px) {
+    .best-food{
+        width: 100%;
+    }
+    .best-food-info,.best-img{
+        width: 95%;
+        margin: 0 auto;
+        min-height: 100px;
+    }
+    .best-title{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    .best-title span{
+        display: inline;
+    }
+}

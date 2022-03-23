@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+/* variables */
+:root{
+--font-main:'Poppins', sans-serif;
+--signture:'Cedarville Cursive', cursive;
+--max-width:1980px;
+/* color  */
+--black:#000;
+--cyan:#abb8c3;
+--white:#fff;
+--pink:#f78da7;
+--red:#cf2e2e;
+--orange:#ff6900;
+--yellow:#fcb900;
+--green:#00d084;
+--orangeDark:#d74a3a;
+--grey:#f8f4f0;
+--golden:#ca943d;
+
+/* color  */
+
+--transition:0.3s ease;
+
+}
+/* variables */
+/* reset  */
+*{margin: 0;
+  padding: 0;
+
+}
+
+body{
+font-family: var(--font-main);
+font-weight: 500;
+font-size: 11px;
+
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+section{
+  width: 90%;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+/* reset  */
+
+/* common-class  */
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.hide{
+  display: none;
+}
+/* common-class  */
+
+/* loading page  */
+.loading{
+  height: 100vh;
+  width: 100vw;
+  background-color: #262626;
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* loading page  */

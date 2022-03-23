@@ -1,0 +1,39 @@
+.favourite{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1980px;
+    padding-block: 2.5rem;
+}
+
+.favourite-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-block: 2rem;
+}
+.favourite-card{
+    width: 48%;
+    text-align: center;
+    
+}
+.fav-img{
+    width: 70%;
+    object-fit: cover;
+}
+.favourite-card-info h4{
+    font-size: 1.2rem;
+    color: var(--golden);
+    font-weight: 500;
+    padding-block: 0.5rem;
+}
+.favourite-card-info p{
+    opacity: 0.6;
+}
+
+@media (max-width:600px) {
+    .favourite-card{
+        width: 90%;
+    }
+}

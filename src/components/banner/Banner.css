@@ -1,0 +1,21 @@
+#banner{
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+    padding-block: 2rem;
+    height: 60vh;
+}
+.main-banner{
+    width: 100%;
+    object-fit: cover;
+    height: 60vh;
+}
+
+@media (max-width:600px) {
+    #banner{
+        height: 30vh;
+    }
+    .main-banner{
+        height: 30vh;
+    }
+}
